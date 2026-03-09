@@ -22,6 +22,7 @@ public class InvalidAgeException extends RuntimeException {
             a.setAge(-5);
         } catch (InvalidAgeException e) {
             System.out.println("Loi: " + e.getMessage());
+
             System.out.println("Ma loi: " + e.geteCode());
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             String time = LocalDateTime.now().format(formatter);
