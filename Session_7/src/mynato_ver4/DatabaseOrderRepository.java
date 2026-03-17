@@ -1,0 +1,20 @@
+package mynato_ver4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DatabaseOrderRepository implements OrderRepository {
+
+    private List<Order> orders = new ArrayList<>();
+
+    @Override
+    public void save(Order order) {
+        orders.add(order);
+        System.out.println("Lưu đơn hàng vào database: " + order.id);
+    }
+
+    @Override
+    public List<Order> findAll() {
+        return orders;
+    }
+}
