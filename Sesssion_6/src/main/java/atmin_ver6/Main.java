@@ -13,14 +13,14 @@ public class Main {
         while (true) {
 
             System.out.println("""
-1. Bắt đầu mô phỏng
-2. Tạm dừng mô phỏng
-3. Tiếp tục mô phỏng
-4. Thêm vé
-5. Xem thống kê
-6. Phát hiện deadlock
-7. Thoát
-""");
+                    1. Bắt đầu mô phỏng
+                    2. Tạm dừng mô phỏng
+                    3. Tiếp tục mô phỏng
+                    4. Thêm vé
+                    5. Xem thống kê
+                    6. Phát hiện deadlock
+                    7. Thoát
+                    """);
 
             int choice = sc.nextInt();
 
