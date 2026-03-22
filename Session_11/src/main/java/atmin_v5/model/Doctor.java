@@ -1,0 +1,39 @@
+package atmin_v5.model;
+
+public class Doctor {
+    private int id;
+    private String fullname;
+    private String specialty;
+
+    public Doctor() {}
+
+    public Doctor(int id, String fullname, String specialty) {
+        this.id = id;
+        this.fullname = fullname;
+        this.specialty = specialty;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public String getSpecialty() {
+        return specialty;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public void setSpecialty(String specialty) {
+        this.specialty = specialty;
+    }
+}
