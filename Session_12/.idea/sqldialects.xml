@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin/Doctor.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin/DoctorService.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b1/Main.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b1/analysis.md" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b2/Main.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b3/Main.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b4/Main.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b4/analysis.md" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b5/business/PatientService.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b5/dao/PatientDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b6/dao/MedicineDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/atmin_b6/dao/PrescriptionDAO.java" dialect="GenericSQL" />
+  </component>
+</project>
