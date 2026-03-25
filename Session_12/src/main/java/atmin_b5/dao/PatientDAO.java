@@ -32,7 +32,6 @@ public class PatientDAO {
 
     public void addPatient(String name, int age, String department, String disease) throws SQLException {
         String sql = "INSERT INTO patients(name, age, department, disease,admission_date) VALUES (?, ?, ?, ?, ?)";
-        boolean result = false;
         try (Connection conn = DB.getInstance().getConnection("atmin_db_hospital");
              PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setString(1, name);
@@ -40,10 +39,7 @@ public class PatientDAO {
             ps.setString(3, department);
             ps.setString(4, disease);
             ps.setDate(5, Date.valueOf(LocalDate.now()));
-            int row = ps.executeUpdate();
-            if (row > 0) {
-                result = true;
-            }
+            ps.executeUpdate();
         }
     }
 

@@ -21,7 +21,7 @@ SELECT * FROM patient WHERE id = 2;
 SELECT * FROM patient WHERE id = 3;
 ```
 
-👉 Dù cấu trúc giống nhau, DB vẫn coi là **câu lệnh khác nhau**.
+Dù cấu trúc giống nhau, DB vẫn coi là **câu lệnh khác nhau**.
 
 Trong khi dùng PreparedStatement:
 
